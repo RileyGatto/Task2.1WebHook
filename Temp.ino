@@ -9,7 +9,7 @@ int keyIndex = 0;            // your network key Index number (needed only for W
 WiFiClient  client;
 
 unsigned long myChannelNumber = SECRET_CH_ID;
-const char * myWriteAPIKey = SECRET_WRITE_APIKEY;
+const char * myWriteAPIKey = SECRET_WRITE_APIKEY; //dont need & because string literals is treated as const char *
 
 // Initialize our values
 #define DHTPIN 2
